@@ -139,5 +139,39 @@ namespace TestVendingMachine
             Assert.AreEqual(6.25, vendingMachine.getChange(), 0.01);
             Assert.AreEqual(5.75, vendingMachine.getBalance(), 0.01);
         }
+
+        [TestMethod]
+        public void test8()
+        {
+            Machine vendingMachine = new Machine();
+            vendingMachine.AddArticle(new Article("Smarlies", "A01", 10, (float)1.60));
+            vendingMachine.AddArticle(new Article("Carampar", "A02", 5, (float)0.60));
+            vendingMachine.AddArticle(new Article("Avril", "A03", 2, (float)2.10));
+            vendingMachine.AddArticle(new Article("KokoKola", "A04", 1, (float)2.95));
+
+            vendingMachine.insert((float)1000.00);
+            vendingMachine.setTime("2020-01-01T20:30:00");
+            vendingMachine.choose("A01");
+            vendingMachine.setTime("2020-03-01T23:30:00");
+            vendingMachine.choose("A01");
+            vendingMachine.setTime("2020-03-04T09:22:00");
+            vendingMachine.choose("A01");
+            vendingMachine.setTime("2020-04-01T23:00:00");
+            vendingMachine.choose("A01");
+            vendingMachine.setTime("2020-04-01T23:59:59");
+            vendingMachine.choose("A01");
+            vendingMachine.setTime("2020-04-04T09:12:00");
+            vendingMachine.choose("A01");
+
+
+            string expectedResult = "" +
+                "Hour 23 generated a revenue of 4,80\n" +
+                "Hour 9 generated a revenue of 3,20\n" +
+                "Hour 20 generated a revenue of 1,60\n";
+
+
+            Assert.AreEqual(expectedResult, vendingMachine.getBestHours());
+           
+        }
     }
 }

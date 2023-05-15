@@ -22,16 +22,15 @@ namespace Vending_machine
             _price = price;
         }
 
+       
         public string getName() { return _name; }
-        public void setName(string name) { _name = name; }
 
         public string getCode() { return _code; }
-        public void setCode(string code) { _code = code; }
 
         public int getQuantity() { return _quantity; }
+
         public void setQuantity(int quantity) { _quantity = quantity; }
 
         public float getPrice() { return _price; }
-        public void setPrice(float price) { _price = price; }
     }
 }
