@@ -1,0 +1,12 @@
+C:\Users\cypri\source\repos\Vending-machine\Vending-machine\bin\Debug\Vending-machine.pdb
+C:\Users\cypri\source\repos\Vending-machine\Vending-machine\obj\Debug\Vending-machine.csproj.AssemblyReference.cache
+C:\Users\cypri\source\repos\Vending-machine\Vending-machine\obj\Debug\Vending-machine.csproj.CoreCompileInputs.cache
+C:\Users\cypri\source\repos\Vending-machine\Vending-machine\obj\Debug\Vending-machine.pdb
+C:\Users\cypri\source\repos\Vending-machine\Vending-machine\bin\Debug\Vending-machine.dll
+C:\Users\cypri\source\repos\Vending-machine\Vending-machine\obj\Debug\Vending-machine.dll
+C:\Users\cypri\OneDrive\Documents\GitHub\2023_Code_Entretien\Vending-machine\Vending-machine\bin\Debug\Vending-machine.dll
+C:\Users\cypri\OneDrive\Documents\GitHub\2023_Code_Entretien\Vending-machine\Vending-machine\bin\Debug\Vending-machine.pdb
+C:\Users\cypri\OneDrive\Documents\GitHub\2023_Code_Entretien\Vending-machine\Vending-machine\obj\Debug\Vending-machine.csproj.AssemblyReference.cache
+C:\Users\cypri\OneDrive\Documents\GitHub\2023_Code_Entretien\Vending-machine\Vending-machine\obj\Debug\Vending-machine.csproj.CoreCompileInputs.cache
+C:\Users\cypri\OneDrive\Documents\GitHub\2023_Code_Entretien\Vending-machine\Vending-machine\obj\Debug\Vending-machine.dll
+C:\Users\cypri\OneDrive\Documents\GitHub\2023_Code_Entretien\Vending-machine\Vending-machine\obj\Debug\Vending-machine.pdb
